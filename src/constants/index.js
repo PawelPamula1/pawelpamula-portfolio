@@ -23,6 +23,8 @@ import {
   jobit,
   tripguide,
   threejs,
+  mproduction,
+  amelco,
 } from "../assets";
 
 export const navLinks = [
@@ -116,55 +118,30 @@ const technologies = [
 
 const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
-    icon: starbucks,
-    iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    title: "Frontend Developer",
+    company_name: "Amelco Co Uk",
+    icon: amelco,
+    iconBg: "#fff",
+    date: "2022 January - now",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Developed and enhanced the user interface for a comprehensive betting software, enabling users to place bets on various sports in ReactJS Framework on web and React Native on apps.",
+      "Collaborated closely with backend developers and project manager to gather requirements, ensuring seamless communication and alignment between frontend and server-side teams.",
+      "Conducted regular code reviews, emphasizing the importance of clean code practices and paying attention to detail for optimal code quality and maintainability.",
+      "Proactively identified and implemented solutions to optimize code performance.",
+      "Followed Agile methodologies with two-week sprints, promoting efficient development cycles, continuous improvement, and effective collaboration within the development team.",
+      "Working with international clients speaking and writing fluently in english",
     ],
   },
   {
-    title: "React Native Developer",
-    company_name: "Tesla",
-    icon: tesla,
-    iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
+    title: "Frontend Developer",
+    company_name: "MProduction",
+    icon: mproduction,
+    iconBg: "#fff",
+    date: "Nov 2020 - Dec 2021",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Web Developer",
-    company_name: "Shopify",
-    icon: shopify,
-    iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
-    iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Maintaining simple wordpress website for marketing agency.",
+      "Developing website written in custom CMS in HTML, CSS and PHP.",
+      "Improving SEO for company website.",
     ],
   },
 ];

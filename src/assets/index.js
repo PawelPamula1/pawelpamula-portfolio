@@ -22,6 +22,8 @@ import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
 
 import meta from "./company/meta.png";
+import mproduction from "./company/mproduction.png";
+import amelco from "./company/amelco.png";
 import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
@@ -53,6 +55,8 @@ export {
   typescript,
   threejs,
   meta,
+  mproduction,
+  amelco,
   shopify,
   starbucks,
   tesla,
