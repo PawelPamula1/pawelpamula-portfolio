@@ -11,10 +11,9 @@ import {
   redux,
   tailwind,
   nodejs,
-  mongodb,
+  next,
   git,
   figma,
-  docker,
   carrent,
   jobit,
   tripguide,
@@ -79,6 +78,10 @@ const technologies = [
     icon: reactjs,
   },
   {
+    name: "Next JS",
+    icon: next,
+  },
+  {
     name: "Redux Toolkit",
     icon: redux,
   },
@@ -91,10 +94,6 @@ const technologies = [
     icon: nodejs,
   },
   {
-    name: "MongoDB",
-    icon: mongodb,
-  },
-  {
     name: "Three JS",
     icon: threejs,
   },
@@ -105,10 +104,6 @@ const technologies = [
   {
     name: "figma",
     icon: figma,
-  },
-  {
-    name: "docker",
-    icon: docker,
   },
 ];
 
