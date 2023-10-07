@@ -14,6 +14,7 @@ const ProjectCard = ({
   tags,
   image,
   source_code_link,
+  page_link,
 }) => {
   return (
     <motion.div variants={fadeIn("up", "spring", index * 0.5, 0.75)}>
@@ -21,7 +22,10 @@ const ProjectCard = ({
         options={{ max: 45, scale: 1, speed: 450 }}
         className="bg-tertiary p-5 rounded-2xl sm:w-[360px] w-full"
       >
-        <div className="relative w-full h-[230px]">
+        <div
+          className="relative w-full h-[230px] cursor-pointer"
+          onClick={() => window.open(page_link, "_blank")}
+        >
           <img
             src={image}
             alt={name}
@@ -68,13 +72,14 @@ const Works = () => {
           variants={fadeIn("", "", 0.1, 1)}
           className="mt-3 text-secondary text-[17px] max-w-3xl leading-[30px]"
         >
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Animi, est
-          adipisci perspiciatis rerum in iste maiores magni earum! Fugit quia
-          facere mollitia soluta voluptas officiis vel eum nam delectus
-          corporis! Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-          Animi, est adipisci perspiciatis rerum in iste maiores magni earum!
-          Fugit quia facere mollitia soluta voluptas officiis vel eum nam
-          delectus corporis!
+          Through a passion for innovation and a dedication to staying at the
+          forefront of web development, I craft digital experiences that
+          seamlessly blend creativity and functionality. My portfolio represents
+          a culmination of projects where I've harnessed the latest in frontend
+          technologies and tools. With a keen eye for design, user experience,
+          and performance optimization, I ensure that every project I undertake
+          not only meets but exceeds modern standards, delivering captivating
+          and responsive web solutions that leave a lasting impression.
         </motion.p>
       </div>
       <div className="mt-20 flex flex-wrap gap-7">

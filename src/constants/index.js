@@ -1,7 +1,5 @@
 import {
   mobile,
-  backend,
-  creator,
   web,
   javascript,
   typescript,
@@ -10,16 +8,15 @@ import {
   reactjs,
   redux,
   tailwind,
-  nodejs,
   next,
   git,
   figma,
-  carrent,
-  jobit,
-  tripguide,
-  threejs,
+  trello,
   mproduction,
   amelco,
+  mobx,
+  webpack,
+  graphql,
 } from "../assets";
 
 export const navLinks = [
@@ -39,20 +36,12 @@ export const navLinks = [
 
 const services = [
   {
-    title: "Web Developer",
+    title: "Frontend Developer",
     icon: web,
   },
   {
     title: "React Native Developer",
     icon: mobile,
-  },
-  {
-    title: "Backend Developer",
-    icon: backend,
-  },
-  {
-    title: "Content Creator",
-    icon: creator,
   },
 ];
 
@@ -86,16 +75,12 @@ const technologies = [
     icon: redux,
   },
   {
+    name: "MobX",
+    icon: mobx,
+  },
+  {
     name: "Tailwind CSS",
     icon: tailwind,
-  },
-  {
-    name: "Node JS",
-    icon: nodejs,
-  },
-  {
-    name: "Three JS",
-    icon: threejs,
   },
   {
     name: "git",
@@ -104,6 +89,14 @@ const technologies = [
   {
     name: "figma",
     icon: figma,
+  },
+  {
+    name: "graphql",
+    icon: graphql,
+  },
+  {
+    name: "Webpack",
+    icon: webpack,
   },
 ];
 
@@ -166,67 +159,26 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Trello Clone",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "Trello Clone. Collaborative project management tool that uses digital boards and cards to help teams organize tasks and workflows visually.",
     tags: [
       {
-        name: "react",
+        name: "NextJS",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
-        color: "green-text-gradient",
+        name: "AppWrite",
+        color: "red-text-gradient",
       },
       {
         name: "tailwind",
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
-  },
-  {
-    name: "Job IT",
-    description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
-    tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "restapi",
-        color: "green-text-gradient",
-      },
-      {
-        name: "scss",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: jobit,
-    source_code_link: "https://github.com/",
-  },
-  {
-    name: "Trip Guide",
-    description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-    tags: [
-      {
-        name: "nextjs",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "supabase",
-        color: "green-text-gradient",
-      },
-      {
-        name: "css",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: trello,
+    page_link: "https://trello-appwrite-clone-psi.vercel.app/",
+    source_code_link: "https://github.com/PawelPamula1/trello-clone",
   },
 ];
 
